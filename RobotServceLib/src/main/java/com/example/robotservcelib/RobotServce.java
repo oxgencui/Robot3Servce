@@ -86,6 +86,10 @@ public class RobotServce {
     }
 
 
+    /**
+     * @param JsonText 让其解析json数据
+     * @return
+     */
     private static String dealJsonText(String JsonText) {
         //{"code":100000,"text":"1 1"}
         if (JsonText.contains("text")) {
